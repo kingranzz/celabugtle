@@ -1778,7 +1778,7 @@ singleSelectReply: {
     selectedRowId: "🩸"
 },
 contextInfo: {
-stanzaId: cay.generateMessageTag(),
+stanzaId: cella.generateMessageTag(),
 participant: "0@s.whatsapp.net",
 remoteJid: "status@broadcast",
 mentionedJid: [target, "13135550002@s.whatsapp.net"],
